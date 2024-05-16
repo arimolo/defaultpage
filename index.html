@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,27 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center; /* Centraliza todo o texto na página */
+            display: flex;
+            /* Adiciona display: flex para o body */
+            flex-direction: column;
+            /* Define a direção do flexbox como coluna */
+            align-items: center;
+            /* Alinha os itens no flexbox horizontalmente ao centro */
+            justify-content: center;
+            /* Alinha os itens no flexbox verticalmente ao centro */
+            height: 100vh;
+            /* Define a altura do body como 100% da altura da tela */
         }
-        
+
         #frase-centralizada {
-            font-size: 32px; /* Tamanho da fonte do texto */
-            font-weight: bold; /* Texto em negrito */
+            font-size: 32px;
+            font-weight: bold;
         }
     </style>
 </head>
+
 <body>
     <div id="frase-centralizada">Domínio Privado</div>
 </body>
+
 </html>
